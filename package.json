@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"No tests yet\" && exit 0",
     "typecheck": "echo \"No TypeScript yet\" && exit 0",
-    "agents:parallel:exec": "echo \"Running in GitHub Actions context\" && exit 0"
+    "agents:parallel:exec": "npx miyabi build"
   },
-  "keywords": ["hello-world", "miyabi"],
+  "keywords": [
+    "hello-world",
+    "miyabi"
+  ],
   "author": "",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "miyabi": "^0.19.0"
+  }
 }
