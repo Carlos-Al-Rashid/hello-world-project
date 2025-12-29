@@ -71,8 +71,8 @@ jobs:
       contents: write
       issues: write
       pull-requests: write
-      metadata: read
-      repository-projects: read
+      actions: read
+      checks: write
 
     steps:
       - name: Checkout repository
