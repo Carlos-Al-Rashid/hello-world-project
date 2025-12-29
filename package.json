@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"No tests yet\" && exit 0",
     "typecheck": "echo \"No TypeScript yet\" && exit 0",
-    "agents:parallel:exec": "npx miyabi build"
+    "agents:parallel:exec": "npx miyabi build $npm_config_issue"
   },
   "keywords": [
     "hello-world",
